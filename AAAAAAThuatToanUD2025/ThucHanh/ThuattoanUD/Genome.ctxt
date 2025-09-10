@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Genome
+comment1.params=
+comment1.target=Genome()
+comment2.params=
+comment2.target=void\ compress()
+comment2.text=\r\n\ Reads\ a\ sequence\ of\ 8-bit\ extended\ ASCII\ characters\ over\ the\ alphabet\r\n\ {\ A,\ C,\ T,\ G\ }\ from\ standard\ input;\ compresses\ them\ using\ two\ bits\ per\r\n\ character;\ and\ writes\ the\ results\ to\ standard\ output.\r\n
+comment3.params=
+comment3.target=void\ expand()
+comment3.text=\r\n\ Reads\ a\ binary\ sequence\ from\ standard\ input;\ converts\ each\ two\ bits\r\n\ to\ an\ 8-bit\ extended\ ASCII\ character\ over\ the\ alphabet\ {\ A,\ C,\ T,\ G\ };\r\n\ and\ writes\ the\ results\ to\ standard\ output.\r\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\r\n\ Sample\ client\ that\ calls\ {@code\ compress()}\ if\ the\ command-line\r\n\ argument\ is\ "-"\ an\ {@code\ expand()}\ if\ it\ is\ "+".\r\n\r\n\ @param\ args\ the\ command-line\ arguments\r\n
+numComments=5

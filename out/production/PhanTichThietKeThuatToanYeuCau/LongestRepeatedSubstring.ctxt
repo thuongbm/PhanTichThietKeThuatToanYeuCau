@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=LongestRepeatedSubstring
+comment1.params=
+comment1.target=LongestRepeatedSubstring()
+comment2.params=text
+comment2.target=java.lang.String\ lrs(java.lang.String)
+comment2.text=\r\n\ Returns\ the\ longest\ repeated\ substring\ of\ the\ specified\ string.\r\n\r\n\ @param\ \ text\ the\ string\r\n\ @return\ the\ longest\ repeated\ substring\ that\ appears\ in\ {@code\ text};\r\n\ \ \ \ \ \ \ \ \ the\ empty\ string\ if\ no\ such\ string\r\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\r\n\ Unit\ tests\ the\ {@code\ lrs()}\ method.\r\n\r\n\ @param\ args\ the\ command-line\ arguments\r\n
+numComments=4

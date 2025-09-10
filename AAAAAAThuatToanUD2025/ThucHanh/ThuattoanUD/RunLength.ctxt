@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=RunLength
+comment1.params=
+comment1.target=RunLength()
+comment2.params=
+comment2.target=void\ expand()
+comment2.text=\r\n\ Reads\ a\ sequence\ of\ bits\ from\ standard\ input\ (that\ are\ encoded\r\n\ using\ run-length\ encoding\ with\ 8-bit\ run\ lengths);\ decodes\ them;\r\n\ and\ writes\ the\ results\ to\ standard\ output.\r\n
+comment3.params=
+comment3.target=void\ compress()
+comment3.text=\r\n\ Reads\ a\ sequence\ of\ bits\ from\ standard\ input;\ compresses\r\n\ them\ using\ run-length\ coding\ with\ 8-bit\ run\ lengths;\ and\ writes\ the\r\n\ results\ to\ standard\ output.\r\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\r\n\ Sample\ client\ that\ calls\ {@code\ compress()}\ if\ the\ command-line\r\n\ argument\ is\ "-"\ an\ {@code\ expand()}\ if\ it\ is\ "+".\r\n\r\n\ @param\ args\ the\ command-line\ arguments\r\n
+numComments=5

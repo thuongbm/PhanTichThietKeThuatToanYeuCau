@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=HuffmanFileOut
+comment1.params=
+comment1.target=HuffmanFileOut()
+comment2.params=
+comment2.target=void\ compress()
+comment2.text=\r\n\ Reads\ a\ sequence\ of\ 8-bit\ bytes\ from\ standard\ input;\ compresses\ them\r\n\ using\ HuffmanFileOut\ codes\ with\ an\ 8-bit\ alphabet;\ and\ writes\ the\ results\r\n\ to\ standard\ output.\r\n
+comment3.params=freq
+comment3.target=HuffmanFileOut.Node\ buildTrie(int[])
+comment4.params=x
+comment4.target=void\ writeTrie(HuffmanFileOut.Node)
+comment5.params=st\ x\ s
+comment5.target=void\ buildCode(java.lang.String[],\ HuffmanFileOut.Node,\ java.lang.String)
+comment6.params=
+comment6.target=void\ expand()
+comment6.text=\r\n\ Reads\ a\ sequence\ of\ bits\ that\ represents\ a\ Huffman-compressed\ message\ from\r\n\ standard\ input;\ expands\ them;\ and\ writes\ the\ results\ to\ standard\ output.\r\n
+comment7.params=
+comment7.target=HuffmanFileOut.Node\ readTrie()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+comment8.text=\r\n\ Sample\ client\ that\ calls\ {@code\ compress()}\ if\ the\ command-line\r\n\ argument\ is\ "-"\ an\ {@code\ expand()}\ if\ it\ is\ "+".\r\n\r\n\ @param\ args\ the\ command-line\ arguments\r\n
+numComments=9

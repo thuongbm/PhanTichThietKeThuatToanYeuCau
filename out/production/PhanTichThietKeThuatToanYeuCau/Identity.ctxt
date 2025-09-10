@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Identity
+comment1.params=automata
+comment1.target=Identity(Automata)
+comment2.params=
+comment2.target=void\ letter()
+comment3.params=
+comment3.target=void\ digit()
+comment4.params=
+comment4.target=void\ underscore()
+comment5.params=
+comment5.target=void\ print()
+numComments=6

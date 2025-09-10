@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=LexicalAutomata
+comment1.params=fileName\ automata
+comment1.target=LexicalAutomata(java.lang.String,\ Automata)
+comment2.params=mp
+comment2.target=void\ printMap(java.util.Map)
+comment3.params=x
+comment3.target=void\ printList(java.util.List)
+comment4.params=mp
+comment4.target=void\ printType(java.util.Map)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

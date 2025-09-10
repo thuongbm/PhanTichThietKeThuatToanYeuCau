@@ -1,0 +1,4 @@
+KWIK ("tale.txt", "15");
+LongestcommonSubstring {"tinyTale.txt", "tale.txt")
+FordFulkerson("tinyFN.txt")
+BoyerMoore("chăm chỉ", "Ngày mai trời lại sáng, học tập chăm chỉ sẽ thành công.")(Cau 16, 17)

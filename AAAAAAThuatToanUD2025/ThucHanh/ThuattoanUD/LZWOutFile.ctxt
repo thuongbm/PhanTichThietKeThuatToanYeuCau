@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=LZWOutFile
+comment1.params=
+comment1.target=LZWOutFile()
+comment2.params=
+comment2.target=void\ compress()
+comment2.text=\r\n\ Reads\ a\ sequence\ of\ 8-bit\ bytes\ from\ standard\ input;\ compresses\r\n\ them\ using\ LZWOutFile\ compression\ with\ 12-bit\ codewords;\ and\ writes\ the\ results\r\n\ to\ standard\ output.\r\n
+comment3.params=
+comment3.target=void\ expand()
+comment3.text=\r\n\ Reads\ a\ sequence\ of\ bit\ encoded\ using\ LZWOutFile\ compression\ with\r\n\ 12-bit\ codewords\ from\ standard\ input;\ expands\ them;\ and\ writes\r\n\ the\ results\ to\ standard\ output.\r\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\r\n\ Sample\ client\ that\ calls\ {@code\ compress()}\ if\ the\ command-line\r\n\ argument\ is\ "-"\ an\ {@code\ expand()}\ if\ it\ is\ "+".\r\n\r\n\ @param\ args\ the\ command-line\ arguments\r\n
+numComments=5

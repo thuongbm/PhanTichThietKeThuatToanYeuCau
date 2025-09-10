@@ -1,0 +1,45 @@
+#BlueJ class context
+comment0.target=GaussianElimination
+comment0.text=\r\n\ \ The\ {@code\ GaussianElimination}\ data\ type\ provides\ methods\r\n\ \ to\ solve\ a\ linear\ system\ of\ equations\ <em>Ax</em>\ \=\ <em>b</em>,\r\n\ \ where\ <em>A</em>\ is\ an\ <em>m</em>-by-<em>n</em>\ matrix\r\n\ \ and\ <em>b</em>\ is\ a\ length\ <em>n</em>\ vector.\r\n\ \ <p>\r\n\ \ This\ is\ a\ bare-bones\ implementation\ that\ uses\ Gaussian\ elimination\r\n\ \ with\ partial\ pivoting.\r\n\ \ See\ <a\ href\ \=\ "https\://algs4.cs.princeton.edu/99scientific/GaussianEliminationLite.java.html">GaussianEliminationLite.java</a>\r\n\ \ for\ a\ stripped-down\ version\ that\ assumes\ the\ matrix\ <em>A</em>\ is\ square\r\n\ \ and\ nonsingular.\ See\ {@link\ GaussJordanElimination}\ for\ an\ alternate\r\n\ \ implementation\ that\ uses\ Gauss-Jordan\ elimination.\r\n\ \ For\ an\ industrial-strength\ numerical\ linear\ algebra\ library,\r\n\ \ see\ <a\ href\ \=\ "http\://math.nist.gov/javanumerics/jama/">JAMA</a>.\r\n\ \ <p>\r\n\ \ For\ additional\ documentation,\ see\r\n\ \ <a\ href\="https\://algs4.cs.princeton.edu/99scientific">Section\ 9.9</a>\r\n\ \ <i>Algorithms,\ 4th\ Edition</i>\ by\ Robert\ Sedgewick\ and\ Kevin\ Wayne.\r\n\r\n\ \ @author\ Robert\ Sedgewick\r\n\ \ @author\ Kevin\ Wayne\r\n
+comment1.params=A\ b
+comment1.target=GaussianElimination(double[][],\ double[])
+comment1.text=\r\n\ Solves\ the\ linear\ system\ of\ equations\ <em>Ax</em>\ \=\ <em>b</em>,\r\n\ where\ <em>A</em>\ is\ an\ <em>m</em>-by-<em>n</em>\ matrix\ and\ <em>b</em>\r\n\ is\ a\ length\ <em>m</em>\ vector.\r\n\r\n\ @param\ \ A\ the\ <em>m</em>-by-<em>n</em>\ constraint\ matrix\r\n\ @param\ \ b\ the\ length\ <em>m</em>\ right-hand-side\ vector\r\n\ @throws\ IllegalArgumentException\ if\ the\ dimensions\ disagree,\ i.e.,\r\n\ \ \ \ \ \ \ \ \ the\ length\ of\ {@code\ b}\ does\ not\ equal\ {@code\ m}\r\n
+comment10.params=
+comment10.target=void\ test2()
+comment11.params=
+comment11.target=void\ test3()
+comment12.params=
+comment12.target=void\ test4()
+comment13.params=
+comment13.target=void\ test5()
+comment14.params=
+comment14.target=void\ test6()
+comment15.params=
+comment15.target=void\ test7()
+comment16.params=
+comment16.target=void\ test8()
+comment17.params=
+comment17.target=void\ test9()
+comment18.params=args
+comment18.target=void\ main(java.lang.String[])
+comment18.text=\r\n\ Unit\ tests\ the\ {@code\ GaussianElimination}\ data\ type.\r\n\r\n\ @param\ args\ the\ command-line\ arguments\r\n
+comment2.params=
+comment2.target=void\ forwardElimination()
+comment3.params=row1\ row2
+comment3.target=void\ swap(int,\ int)
+comment4.params=p
+comment4.target=void\ pivot(int)
+comment5.params=
+comment5.target=double[]\ primal()
+comment5.text=\r\n\ Returns\ a\ solution\ to\ the\ linear\ system\ of\ equations\ <em>Ax</em>\ \=\ <em>b</em>.\r\n\ \ \ \ \ \ \r\n\ @return\ a\ solution\ <em>x</em>\ to\ the\ linear\ system\ of\ equations\r\n\ \ \ \ \ \ \ \ \ <em>Ax</em>\ \=\ <em>b</em>;\ {@code\ null}\ if\ no\ such\ solution\r\n
+comment6.params=
+comment6.target=boolean\ isFeasible()
+comment6.text=\r\n\ Returns\ true\ if\ there\ exists\ a\ solution\ to\ the\ linear\ system\ of\r\n\ equations\ <em>Ax</em>\ \=\ <em>b</em>.\r\n\ \ \ \ \ \ \r\n\ @return\ {@code\ true}\ if\ there\ exists\ a\ solution\ to\ the\ linear\ system\r\n\ \ \ \ \ \ \ \ \ of\ equations\ <em>Ax</em>\ \=\ <em>b</em>;\ {@code\ false}\ otherwise\r\n
+comment7.params=A\ b
+comment7.target=boolean\ certifySolution(double[][],\ double[])
+comment8.params=name\ A\ b
+comment8.target=void\ test(java.lang.String,\ double[][],\ double[])
+comment8.text=\r\n\ Unit\ tests\ the\ {@code\ GaussianElimination}\ data\ type.\r\n
+comment9.params=
+comment9.target=void\ test1()
+numComments=19

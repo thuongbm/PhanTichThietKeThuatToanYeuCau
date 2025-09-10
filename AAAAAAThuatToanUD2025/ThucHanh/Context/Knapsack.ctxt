@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Knapsack
+comment0.text=\r\n\ \ Compilation\:\ \ javac\ Knapsack.java\r\n\ \ Execution\:\ \ \ \ java\ Knapsack\ N\ W\r\n\r\n\ \ Generates\ an\ instance\ of\ the\ 0/1\ knapsack\ problem\ with\ N\ items\r\n\ \ and\ maximum\ weight\ W\ and\ solves\ it\ in\ time\ and\ space\ proportional\r\n\ \ to\ N\ *\ W\ using\ dynamic\ programming.\r\n\r\n\ \ For\ testing,\ the\ inputs\ are\ generated\ at\ random\ with\ weights\ between\ 0\r\n\ \ and\ W,\ and\ profits\ between\ 0\ and\ 1000.\r\n\r\n\ \ %\ \ java\ Knapsack\ 6\ 2000\ \r\n\ \ item\ \ \ \ profit\ \ weight\ \ take\r\n\ \ 1\ \ \ \ \ \ \ 874\ \ \ \ \ 580\ \ \ \ \ true\r\n\ \ 2\ \ \ \ \ \ \ 620\ \ \ \ \ 1616\ \ \ \ false\r\n\ \ 3\ \ \ \ \ \ \ 345\ \ \ \ \ 1906\ \ \ \ false\r\n\ \ 4\ \ \ \ \ \ \ 369\ \ \ \ \ 1942\ \ \ \ false\r\n\ \ 5\ \ \ \ \ \ \ 360\ \ \ \ \ 50\ \ \ \ \ \ true\r\n\ \ 6\ \ \ \ \ \ \ 470\ \ \ \ \ 294\ \ \ \ \ true\r\n\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

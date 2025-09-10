@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Page
+comment0.text=\r\n\ Represents\ a\ generic\ page\ of\ data,\ identified\ by\ a\ unique\ key.\r\n\r\n\ @param\ <Key>\ The\ type\ of\ the\ key\ used\ to\ identify\ elements\ within\ the\ page.\r\n
+comment1.params=pageKey
+comment1.target=Page(java.lang.Object)
+comment1.text=\r\n\ Constructs\ a\ new\ Page\ with\ a\ given\ key.\r\n\r\n\ @param\ pageKey\ The\ unique\ key\ for\ this\ page.\r\n
+comment2.params=
+comment2.target=java.lang.Object\ getPageKey()
+comment2.text=\r\n\ Returns\ the\ unique\ key\ of\ this\ page.\r\n\r\n\ @return\ The\ page's\ key.\r\n
+comment3.params=item
+comment3.target=void\ addContent(java.lang.String)
+comment3.text=\r\n\ Adds\ a\ string\ element\ to\ the\ page's\ content.\r\n\r\n\ @param\ item\ The\ string\ item\ to\ add.\r\n
+comment4.params=
+comment4.target=java.util.List\ getContent()
+comment4.text=\r\n\ Returns\ the\ list\ of\ content\ items\ in\ this\ page.\r\n\r\n\ @return\ A\ List\ of\ strings\ representing\ the\ page's\ content.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7
