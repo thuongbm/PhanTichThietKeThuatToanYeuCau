@@ -55,7 +55,8 @@ public class GREP {
      * @param args the command-line arguments
      */
     public static void main(String[] args) throws IOException { 
-        System.setIn(new FileInputStream(new File("tinyL.txt")));
+//        System.setIn(new FileInputStream(new File("tinyL.txt")));
+        System.setIn(new FileInputStream(new File("Cau19L.txt")));
         String regexp = "(.*" + args[0] + ".*)";
         NFA nfa = new NFA(regexp);
         while (StdIn.hasNextLine()) { 

@@ -7,3 +7,6 @@ NFA ("(a|(bc)*d)*", "abcbcd")
 Jfex ("sample.java")
 KMP ("trường", "Hôm nay tôi đi học ở trường đại học.")(Bài tập cau 13)
 KMPFile ("PatternCau14.txt", "TextCau14.txt") (Cau 14)
+NFA ("(học|chơi)(học|chơi)*", "học") (cau 18)
+GREP("học") (cau 19)
+
