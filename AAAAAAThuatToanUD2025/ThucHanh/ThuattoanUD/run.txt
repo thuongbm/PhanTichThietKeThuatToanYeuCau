@@ -2,3 +2,10 @@ KWIK ("tale.txt", "15");
 LongestcommonSubstring {"tinyTale.txt", "tale.txt")
 FordFulkerson("tinyFN.txt")
 BoyerMoore("chăm chỉ", "Ngày mai trời lại sáng, học tập chăm chỉ sẽ thành công.")(Cau 16, 17)
+Huffman("-", "10svdaucach") (cau23)
+HuffmanCau24("-", "10sinhviencodauvadauphay.txt", "outtxt.txt") (cau24)
+HuffmanCau24("+", "outtxt.txt") (cau24)
+
+HuffmanCau24("-", "vanbantiengviet.txt", "outtx.txt") (cau25)
+HuffmanCau24("+", "outtx.txt") (cau25)
+Nhớ phải sau khi nén Câu 26 thì phải vung ra rồi dùng testread26 đọc

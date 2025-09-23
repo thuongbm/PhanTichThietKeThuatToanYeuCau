@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=LZWOutFileCau26
+comment1.params=
+comment1.target=LZWOutFileCau26()
+comment2.params=
+comment2.target=void\ compress()
+comment3.params=st\ s
+comment3.target=java.lang.String\ longestPrefix(java.util.Map,\ java.lang.String)
+comment4.params=
+comment4.target=void\ expand()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=HuffmanCau24
+comment1.params=freq
+comment1.target=HuffmanCau24.Node\ buildTrie(int[])
+comment2.params=st\ x\ s
+comment2.target=void\ buildCode(java.lang.String[],\ HuffmanCau24.Node,\ java.lang.String)
+comment3.params=x
+comment3.target=void\ writeTrie(HuffmanCau24.Node)
+comment4.params=
+comment4.target=HuffmanCau24.Node\ readTrie()
+comment5.params=
+comment5.target=void\ compress()
+comment6.params=
+comment6.target=void\ expand()
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BinaryStdInCau24
+comment1.params=
+comment1.target=BinaryStdInCau24()
+comment2.params=
+comment2.target=void\ fillBuffer()
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment4.params=
+comment4.target=boolean\ readBoolean()
+comment5.params=
+comment5.target=char\ readChar()
+comment6.params=
+comment6.target=int\ readByte()
+comment7.params=
+comment7.target=int\ readInt()
+comment8.params=
+comment8.target=void\ close()
+numComments=9

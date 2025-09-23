@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BinaryStdOutFileCau26
+comment1.params=
+comment1.target=BinaryStdOutFileCau26()
+comment2.params=bit
+comment2.target=void\ writeBit(boolean)
+comment3.params=x
+comment3.target=void\ writeByte(int)
+comment4.params=
+comment4.target=void\ clearBuffer()
+comment5.params=
+comment5.target=void\ flush()
+comment6.params=
+comment6.target=void\ close()
+comment7.params=x\ r
+comment7.target=void\ write(int,\ int)
+comment8.params=data
+comment8.target=void\ write(byte[])
+numComments=9

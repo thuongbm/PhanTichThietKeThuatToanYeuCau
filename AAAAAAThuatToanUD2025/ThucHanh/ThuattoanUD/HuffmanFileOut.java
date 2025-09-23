@@ -200,8 +200,8 @@ public class HuffmanFileOut {
      * @param args the command-line arguments
      */
     public static void main(String[] args) throws IOException {
-        /*System.setIn(new FileInputStream(new File("abra.txt")));*/
-        System.setIn(new FileInputStream(new File("outbit.bin")));
+        System.setIn(new FileInputStream(new File("abra.txt")));
+        /*System.setIn(new FileInputStream(new File("outbit.bin")));*/
         /*System.setIn(new FileInputStream(new File("q64x96.bin")));*/
         if      (args[0].equals("-")) compress();
         else if (args[0].equals("+")) expand();

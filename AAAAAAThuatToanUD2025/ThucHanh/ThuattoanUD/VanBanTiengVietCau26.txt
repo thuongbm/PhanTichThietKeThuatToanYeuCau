@@ -1,0 +1,3 @@
+Xin chào, đây là một đoạn văn bản tiếng Việt để kiểm tra thuật toán LZW.
+Thuật toán này sẽ nén dữ liệu, sau đó giải nén để phục hồi nguyên bản.
+Chúc Thương  zai học tập và có ny sớm thật hiệu quả!

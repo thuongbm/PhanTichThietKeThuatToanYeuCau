@@ -118,7 +118,7 @@ public class LZWOutFile {
  *
  *  This file is part of algs4.jar, which accompanies the textbook
  *
- *      Algorithms, 4th edition by Robert Sedgewick and Kevin Wayne,
+ *      Algorithms, 4th edition by Robert Sedgewick a   nd Kevin Wayne,
  *      Addison-Wesley Professional, 2011, ISBN 0-321-57351-X.
  *      http://algs4.cs.princeton.edu
  *
