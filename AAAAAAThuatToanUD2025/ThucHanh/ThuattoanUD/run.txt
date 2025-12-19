@@ -1,6 +1,8 @@
 KWIK ("tale.txt", "15");
 LongestcommonSubstring {"tinyTale.txt", "tale.txt")
 FordFulkerson("tinyFN.txt")
+Câu 21 (RunLegthFile)
+Câu 22 FileCompare
 BoyerMoore("chăm chỉ", "Ngày mai trời lại sáng, học tập chăm chỉ sẽ thành công.")(Cau 16, 17)
 Huffman("-", "10svdaucach") (cau23)
 HuffmanCau24("-", "10sinhviencodauvadauphay.txt", "outtxt.txt") (cau24)

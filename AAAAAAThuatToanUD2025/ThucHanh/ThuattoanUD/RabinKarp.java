@@ -73,9 +73,9 @@ public class RabinKarp {
      */
     public RabinKarp(String pat) {
         this.pat = pat;      // save pattern (needed only for Las Vegas)
-        R = 256;
+//        R = 256;
 //        Cau 17
-//        R = 65536;
+        R = 65536;
         m = pat.length();
         q = longRandomPrime();
 

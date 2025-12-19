@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=BSPTree
+comment1.params=line
+comment1.target=void\ add(BSPLine)
+comment2.params=
+comment2.target=java.util.ArrayList\ createList()
+comment3.params=node\ list
+comment3.target=void\ traverseTreeToGetList(BSPTree.BSPNode,\ java.util.ArrayList)
+comment4.params=
+comment4.target=void\ clear()
+comment5.params=p
+comment5.target=java.util.ArrayList\ locatePosition(java.awt.geom.Point2D)
+comment6.params=node\ stringList\ p
+comment6.target=void\ traverseTreeToLocatePosition(BSPTree.BSPNode,\ java.util.ArrayList,\ java.awt.geom.Point2D)
+numComments=7

@@ -1,3 +1,5 @@
 KWIK ("tale.txt", "15");
+KWIK ("vietnamese.txt", "15")(Câu 6)
+LRS ("CodeC.txt") (Câu 7)
 LongestcommonSubstring {"tinyTale.txt", "tale.txt")
 FordFulkerson("tinyFN.txt")

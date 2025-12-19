@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=SegmentTree
+comment0.text=\r\n\ The\ {@code\ SegmentTree}\ class\ is\ an\ structure\ for\ efficient\ search\ of\ cummulative\ data.\r\n\ It\ performs\ \ Range\ Minimum\ Query\ and\ Range\ Sum\ Query\ in\ O(log(n))\ time.\r\n\ It\ can\ be\ easily\ customizable\ to\ support\ Range\ Max\ Query,\ Range\ Multiplication\ Query\ etc.\r\n\ <p>\r\n\ Also\ it\ has\ been\ develop\ with\ \ {@code\ LazyPropagation}\ for\ range\ updates,\ which\ means\r\n\ when\ you\ perform\ update\ operations\ over\ a\ range,\ the\ update\ process\ affects\ the\ least\ nodes\ as\ possible\r\n\ so\ that\ the\ bigger\ the\ range\ you\ want\ to\ update\ the\ less\ time\ it\ consumes\ to\ update\ it.\ Eventually\ those\ changes\ will\ be\ propagated\r\n\ to\ the\ children\ and\ the\ whole\ array\ will\ be\ up\ to\ date.\r\n\ <p>\r\n\ Example\:\r\n\ <p>\r\n\ SegmentTreeHeap\ st\ \=\ new\ SegmentTreeHeap(new\ Integer[]{1,3,4,2,1,\ -2,\ 4});\r\n\ st.update(0,3,\ 1)\r\n\ In\ the\ above\ case\ only\ the\ node\ that\ represents\ the\ range\ [0,3]\ will\ be\ updated\ (and\ not\ their\ children)\ so\ in\ this\ case\r\n\ the\ update\ task\ will\ be\ less\ than\ n*log(n)\r\n\r\n\ Memory\ usage\:\ \ O(n)\r\n\r\n\ @author\ Ricardo\ Pacheco\ \r\n
+comment1.params=array
+comment1.target=SegmentTree(int[])
+comment1.text=\r\n\ Time-Complexity\:\ \ O(n*log(n))\r\n\r\n\ @param\ array\ the\ Initialization\ array\r\n
+comment10.params=v
+comment10.target=void\ propagate(int)
+comment11.params=n\ value
+comment11.target=void\ change(SegmentTree.Node,\ int)
+comment12.params=from1\ to1\ from2\ to2
+comment12.target=boolean\ contains(int,\ int,\ int,\ int)
+comment13.params=from1\ to1\ from2\ to2
+comment13.target=boolean\ intersects(int,\ int,\ int,\ int)
+comment14.params=args
+comment14.target=void\ main(java.lang.String[])
+comment14.text=\r\n\ Read\ the\ following\ commands\:\r\n\ init\ n\ v\ \ \ \ \ Initializes\ the\ array\ of\ size\ n\ with\ all\ v's\r\n\ set\ a\ b\ c...\ Initializes\ the\ array\ \ with\ [a,\ b,\ c\ ...]\r\n\ rsq\ a\ b\ \ \ \ \ \ Range\ Sum\ Query\ for\ the\ range\ [a,\ b]\r\n\ rmq\ a\ b\ \ \ \ \ \ Range\ Min\ Query\ for\ the\ range\ [a,\ b]\r\n\ up\ \ a\ b\ v\ \ \ \ Update\ the\ [a,b]\ portion\ of\ the\ array\ with\ value\ v.\r\n\ exit\r\n\ <p>\r\n\ Example\:\r\n\ init\r\n\ set\ 1\ 2\ 3\ 4\ 5\ 6\r\n\ rsq\ 1\ 3\r\n\ Sum\ from\ 1\ to\ 3\ \=\ 6\r\n\ rmq\ 1\ 3\r\n\ Min\ from\ 1\ to\ 3\ \=\ 1\r\n\ input\ up\ 1\ 3\r\n\ [3,2,3,4,5,6]\r\n\r\n\ @param\ args\ the\ command-line\ arguments\r\n
+comment2.params=
+comment2.target=int\ size()
+comment3.params=v\ from\ size
+comment3.target=void\ build(int,\ int,\ int)
+comment4.params=from\ to
+comment4.target=int\ rsq(int,\ int)
+comment4.text=\r\n\ Range\ Sum\ Query\r\n\r\n\ Time-Complexity\:\ O(log(n))\r\n\r\n\ @param\ \ from\ from\ index\r\n\ @param\ \ to\ to\ index\r\n\ @return\ sum\r\n
+comment5.params=v\ from\ to
+comment5.target=int\ rsq(int,\ int,\ int)
+comment6.params=from\ to
+comment6.target=int\ rMinQ(int,\ int)
+comment6.text=\r\n\ Range\ Min\ Query\r\n\ \r\n\ Time-Complexity\:\ O(log(n))\r\n\r\n\ @param\ \ from\ from\ index\r\n\ @param\ \ to\ to\ index\r\n\ @return\ min\r\n
+comment7.params=v\ from\ to
+comment7.target=int\ rMinQ(int,\ int,\ int)
+comment8.params=from\ to\ value
+comment8.target=void\ update(int,\ int,\ int)
+comment8.text=\r\n\ Range\ Update\ Operation.\r\n\ With\ this\ operation\ you\ can\ update\ either\ one\ position\ or\ a\ range\ of\ positions\ with\ a\ given\ number.\r\n\ The\ update\ operations\ will\ update\ the\ less\ it\ can\ to\ update\ the\ whole\ range\ (Lazy\ Propagation).\r\n\ The\ values\ will\ be\ propagated\ lazily\ from\ top\ to\ bottom\ of\ the\ segment\ tree.\r\n\ This\ behavior\ is\ really\ useful\ for\ updates\ on\ portions\ of\ the\ array\r\n\ <p>\r\n\ Time-Complexity\:\ O(log(n))\r\n\r\n\ @param\ from\ \ from\ index\r\n\ @param\ to\ \ \ \ to\ index\r\n\ @param\ value\ value\r\n
+comment9.params=v\ from\ to\ value
+comment9.target=void\ update(int,\ int,\ int,\ int)
+numComments=15

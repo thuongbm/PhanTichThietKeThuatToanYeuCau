@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=LZW_Demo
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=input
+comment2.target=java.util.List\ compress(java.lang.String)
+comment3.params=codes
+comment3.target=java.lang.String\ expand(java.util.List)
+numComments=4

@@ -15,27 +15,13 @@ public class TSTCau11<Value> {
         private Value val;                     // value associated with string
     }
 
-    /**
-     * Initializes an empty string symbol table.
-     */
     public TSTCau11() {
     }
 
-    /**
-     * Returns the number of key-value pairs in this symbol table.
-     * @return the number of key-value pairs in this symbol table
-     */
     public int size() {
         return n;
     }
 
-    /**
-     * Does this symbol table contain the given key?
-     * @param key the key
-     * @return {@code true} if this symbol table contains {@code key} and
-     *     {@code false} otherwise
-     * @throws IllegalArgumentException if {@code key} is {@code null}
-     */
     public boolean contains(String key) {
         if (key == null) {
             throw new IllegalArgumentException("argument to contains() is null");
@@ -43,13 +29,6 @@ public class TSTCau11<Value> {
         return get(key) != null;
     }
 
-    /**
-     * Returns the value associated with the given key.
-     * @param key the key
-     * @return the value associated with the given key if the key is in the symbol table
-     *     and {@code null} if the key is not in the symbol table
-     * @throws IllegalArgumentException if {@code key} is {@code null}
-     */
     public Value get(String key) {
         if (key == null) {
             throw new IllegalArgumentException("calls get() with null argument");
@@ -71,14 +50,6 @@ public class TSTCau11<Value> {
         else                           return x;
     }
 
-    /**
-     * Inserts the key-value pair into the symbol table, overwriting the old value
-     * with the new value if the key is already in the symbol table.
-     * If the value is {@code null}, this effectively deletes the key from the symbol table.
-     * @param key the key
-     * @param val the value
-     * @throws IllegalArgumentException if {@code key} is {@code null}
-     */
     public void put(String key, Value val) {
         if (key == null) {
             throw new IllegalArgumentException("calls put() with null key");
@@ -100,14 +71,6 @@ public class TSTCau11<Value> {
         return x;
     }
 
-    /**
-     * Returns the string in the symbol table that is the longest prefix of {@code query},
-     * or {@code null}, if no such string.
-     * @param query the query string
-     * @return the string in the symbol table that is the longest prefix of {@code query},
-     *     or {@code null} if no such string
-     * @throws IllegalArgumentException if {@code query} is {@code null}
-     */
     public String longestPrefixOf(String query) {
         if (query == null) {
             throw new IllegalArgumentException("calls longestPrefixOf() with null argument");
@@ -129,25 +92,12 @@ public class TSTCau11<Value> {
         return query.substring(0, length);
     }
 
-    /**
-     * Returns all keys in the symbol table as an {@code Iterable}.
-     * To iterate over all of the keys in the symbol table named {@code st},
-     * use the foreach notation: {@code for (Key key : st.keys())}.
-     * @return all keys in the symbol table as an {@code Iterable}
-     */
     public Iterable<String> keys() {
         Queue<String> queue = new Queue<String>();
         collect(root, new StringBuilder(), queue);
         return queue;
     }
 
-    /**
-     * Returns all of the keys in the set that start with {@code prefix}.
-     * @param prefix the prefix
-     * @return all of the keys in the set that start with {@code prefix},
-     *     as an iterable
-     * @throws IllegalArgumentException if {@code prefix} is {@code null}
-     */
     public Iterable<String> keysWithPrefix(String prefix) {
         if (prefix == null) {
             throw new IllegalArgumentException("calls keysWithPrefix() with null argument");
@@ -170,14 +120,6 @@ public class TSTCau11<Value> {
         collect(x.right, prefix, queue);
     }
 
-
-    /**
-     * Returns all of the keys in the symbol table that match {@code pattern},
-     * where . symbol is treated as a wildcard character.
-     * @param pattern the pattern
-     * @return all of the keys in the symbol table that match {@code pattern},
-     *     as an iterable, where . is treated as a wildcard character.
-     */
     public Iterable<String> keysThatMatch(String pattern) {
         Queue<String> queue = new Queue<String>();
         collect(root, new StringBuilder(), 0, pattern, queue);
@@ -198,39 +140,28 @@ public class TSTCau11<Value> {
         if (c == '.' || c > x.c) collect(x.right, prefix, i, pattern, queue);
     }
 
-
-    /**
-     * Unit tests the {@code TST} data type.
-     *
-     * @param args the command-line arguments
-     */
     public static void main(String[] args) throws IOException {
         System.setIn(new FileInputStream(new File("DanhSachDiemSinhVien.txt")));
-        
         // TST ngoài: key = tên sinh viên, value = TST con (môn -> điểm)
         TSTCau11<TSTCau11<Double>> students = new TSTCau11<>();
         
         while (!StdIn.isEmpty()) {
             String line = StdIn.readLine().trim();
             if (line.isEmpty()) continue; // bỏ qua dòng trống
-    
             // Tách các phần
             String[] parts = line.split("\\s+");
             String studentName = parts[0] + " " + parts[1] + " " + parts[2]; // giả sử tên có 2 từ
             String subject = parts[3];
             double score = Double.parseDouble(parts[4]);
-    
             // Nếu sinh viên chưa có trong TST ngoài thì tạo TST con
             TSTCau11<Double> subjects = students.get(studentName);
             if (subjects == null) {
                 subjects = new TSTCau11<>();
                 students.put(studentName, subjects);
             }
-    
             // Thêm môn học + điểm vào TST con
             subjects.put(subject, score);
         }
-    
         // In kết quả
         for (String student : students.keys()) {
             StdOut.println("Sinh viên: " + student);

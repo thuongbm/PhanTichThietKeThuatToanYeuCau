@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=BaiTapRabinKarp
+comment1.params=pattern
+comment1.target=RabinKarpSolver(java.lang.String)
+comment2.params=key\ doDai
+comment2.target=long\ tinhHash(java.lang.String,\ int)
+comment3.params=oldHash\ removeChar\ addChar
+comment3.target=long\ capNhatHashTruot(long,\ char,\ char)
+comment3.text=\r\n\ H\u00C0M\ 2\:\ Rolling\ Hash\ (B\u0103m\ tr\u01B0\u1EE3t)\r\n\ T\u00EDnh\ Hash\ m\u1EDBi\ t\u1EEB\ Hash\ c\u0169\ trong\ O(1)\r\n\ oldHash\:\ Hash\ c\u1EE7a\ \u0111o\u1EA1n\ tr\u01B0\u1EDBc\r\n\ removeChar\:\ K\u00FD\ t\u1EF1\ b\u1ECB\ lo\u1EA1i\ b\u1ECF\ (\u0111\u1EA7u\ \u0111o\u1EA1n\ c\u0169)\r\n\ addChar\:\ K\u00FD\ t\u1EF1\ m\u1EDBi\ th\u00EAm\ v\u00E0o\ (cu\u1ED1i\ \u0111o\u1EA1n\ m\u1EDBi)\r\n
+comment4.params=text\ viTriBatDau
+comment4.target=boolean\ kiemTraKyTu(java.lang.String,\ int)
+comment4.text=\r\n\ Ki\u1EC3m\ tra\ kh\u1EDBp\ t\u1EEBng\ k\u00FD\ t\u1EF1\ (\u0111\u1EC3\ x\u1EED\ l\u00FD\ va\ ch\u1EA1m\ Hash)\r\n
+comment5.params=txt
+comment5.target=int\ timKiem(java.lang.String)
+comment5.text=\r\n\ H\u00E0m\ t\u00ECm\ ki\u1EBFm\ ch\u00EDnh\ (k\u1EBFt\ h\u1EE3p\ c\u00E1c\ h\u00E0m\ tr\u00EAn)\r\n
+comment6.params=
+comment6.target=long\ laySoNguyenToNgauNhien()
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

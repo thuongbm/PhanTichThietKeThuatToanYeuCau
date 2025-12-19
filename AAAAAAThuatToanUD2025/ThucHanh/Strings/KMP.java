@@ -58,9 +58,9 @@ public class KMP {
      * @param pat the pattern string
      */
     public KMP(String pat) {
-        this.R = 256;
+//        this.R = 256;
 //cau13
-//        this.R = 65536;
+        this.R = 65536;
         this.pat = pat;
 
         // build DFA from pattern
@@ -158,13 +158,13 @@ public class KMP {
         KMP kmp1 = new KMP(pat);
         int offset1 = kmp1.search(txt);
 
-        KMP kmp2 = new KMP(pattern, 256);
-        int offset2 = kmp2.search(text);
+//        KMP kmp2 = new KMP(pattern, 256);
+//        int offset2 = kmp2.search(text);
 
         
 //cau 13        
-//        KMP kmp2 = new KMP(pattern, 65536);
-//        int offset2 = kmp2.search(text);
+        KMP kmp2 = new KMP(pattern, 65536);
+        int offset2 = kmp2.search(text);
 
         // print results
         StdOut.println("text:    " + txt);

@@ -1,8 +1,6 @@
 
 
 
-
-
 import java.io.File;
 public class KMPfile {
     private final int R;       // the radix
@@ -17,9 +15,9 @@ public class KMPfile {
      * @param pat the pattern string
      */
     public KMPfile(String pat) {
-        this.R = 256;
+//        this.R = 256;
 //cau14
-//        this.R = 65536;
+        this.R = 65536;
         this.pat = pat;
 
         // build DFA from pattern
@@ -136,8 +134,8 @@ public class KMPfile {
         KMPfile kmp1 = new KMPfile(pat);
         int offset1 = kmp1.search(txt);
 //Cau14
-//        KMPfile kmp2 = new KMPfile(pattern, 65536);
-        KMPfile kmp2 = new KMPfile(pattern, 256);
+        KMPfile kmp2 = new KMPfile(pattern, 65536);
+//        KMPfile kmp2 = new KMPfile(pattern, 256);
         int offset2 = kmp2.search(text);
 
         // print results

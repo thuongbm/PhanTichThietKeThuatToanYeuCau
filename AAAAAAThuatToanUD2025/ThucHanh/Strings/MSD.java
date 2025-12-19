@@ -229,9 +229,9 @@ public class MSD {
             
         */
         //cau 3
-        BufferedReader br = new BufferedReader(new FileReader("HotenSV.txt"));
+//        BufferedReader br = new BufferedReader(new FileReader("HotenSV.txt"));
         //cau 4
-//        BufferedReader br = new BufferedReader(new FileReader("HotenSVCoDau.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("HotenSVCoDau.txt"));
         List<String> list = new ArrayList<>();
         String line;
 

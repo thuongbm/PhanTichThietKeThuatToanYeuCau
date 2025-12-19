@@ -56,9 +56,9 @@ public class BoyerMoore {
      * @param pat the pattern string
      */
     public BoyerMoore(String pat) {
-        this.R = 256;
+//        this.R = 256;
 //        Cau 16
-//        this.R = 65536;
+        this.R = 65536;
         this.pat = pat;
 
         // position of rightmost occurrence of c in the pattern
@@ -156,9 +156,9 @@ public class BoyerMoore {
 
         BoyerMoore boyermoore1 = new BoyerMoore(pat);
   
-        BoyerMoore boyermoore2 = new BoyerMoore(pattern, 256);
+//        BoyerMoore boyermoore2 = new BoyerMoore(pattern, 256);
 //        Cau 16
-//        BoyerMoore boyermoore2 = new BoyerMoore(pattern, 65536);
+        BoyerMoore boyermoore2 = new BoyerMoore(pattern, 65536);
         int offset1 = boyermoore1.search(txt);
         int offset2 = boyermoore2.search(text);
 

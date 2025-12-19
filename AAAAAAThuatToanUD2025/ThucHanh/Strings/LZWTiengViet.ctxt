@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=LZWTiengViet
+comment0.text=\r\n\ Class\ LZWTiengViet\r\n\ H\u1ED7\ tr\u1EE3\ n\u00E9n\ file\ Ti\u1EBFng\ Vi\u1EC7t\ (UTF-8)\ v\u00E0\ m\u1ECDi\ lo\u1EA1i\ file\ nh\u1ECB\ ph\u00E2n.\r\n\ Ch\u1EA1y\ tr\u1EF1c\ ti\u1EBFp\ tr\u00EAn\ BlueJ\ kh\u00F4ng\ c\u1EA7n\ th\u01B0\ vi\u1EC7n\ ngo\u00E0i.\r\n
+comment1.params=inputFile\ outputFile
+comment1.target=void\ compress(java.lang.String,\ java.lang.String)
+comment2.params=inputFile\ outputFile
+comment2.target=void\ expand(java.lang.String,\ java.lang.String)
+comment3.params=out\ s
+comment3.target=void\ writeStringAsBytes(java.io.OutputStream,\ java.lang.String)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

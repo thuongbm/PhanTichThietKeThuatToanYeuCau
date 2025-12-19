@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=FileCompare
+comment0.text=\r\n\ Compilation\:\ \ javac\ FileCompare.java\r\n\ Execution\:\ \ \ \ java\ FileCompare\r\n\ Dependencies\:\ BinaryIn.java\r\n\r\n\ Class\ n\u00E0y\ d\u00F9ng\ \u0111\u1EC3\ so\ s\u00E1nh\ 2\ file\ nh\u1ECB\ ph\u00E2n\ xem\ ch\u00FAng\ c\u00F3\ gi\u1ED1ng\ h\u1EC7t\ nhau\ kh\u00F4ng.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=name1\ name2
+comment2.target=boolean\ compare(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ H\u00E0m\ \u0111\u1ECDc\ 2\ file\ v\u00E0\ so\ s\u00E1nh\ t\u1EEBng\ byte\r\n
+numComments=3

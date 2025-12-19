@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void tinh_tong() {
+    int a = 10;
+    int b = 20;
+    int ketqua = a + b;
+    printf("Ket qua la: %d", ketqua);
+}
+
+// Đây là đoạn code lặp lại (copy paste từ trên)
+void tinh_hieu() {
+    int a = 10;
+    int b = 20;
+    int ketqua = a + b; // Lặp logic ở đây
+    printf("Ket qua la: %d", ketqua);
+}
+
+int main() {
+    tinh_tong();
+    return 0;
+}

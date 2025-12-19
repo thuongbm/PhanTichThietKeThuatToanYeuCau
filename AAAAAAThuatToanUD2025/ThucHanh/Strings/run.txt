@@ -8,5 +8,8 @@ Jfex ("sample.java")
 KMP ("trường", "Hôm nay tôi đi học ở trường đại học.")(Bài tập cau 13)
 KMPFile ("PatternCau14.txt", "TextCau14.txt") (Cau 14)
 NFA ("(học|chơi)(học|chơi)*", "học") (cau 18)
-GREP("học") (cau 19)
+GREP("Nguyễn") (cau 19)
+LZWTiengViet("1", "input.txt", "out.lzw") (Câu 29) (nén)
+LZWTiengViet("2", "out.lzw", "KetQua.txt") (Câu 29) (bung)
+
 

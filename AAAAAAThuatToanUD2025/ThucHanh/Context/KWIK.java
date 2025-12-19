@@ -66,7 +66,8 @@ public class KWIK {
      * @param args the command-line arguments
      */
     public static void main(String[] args) throws IOException {
-        System.setIn(new FileInputStream(new File("tale.txt")));
+ //       System.setIn(new FileInputStream(new File("tale.txt")));
+        System.setIn(new FileInputStream(new File("vietnamese.txt")));
         
         In in = new In(args[0]);
         

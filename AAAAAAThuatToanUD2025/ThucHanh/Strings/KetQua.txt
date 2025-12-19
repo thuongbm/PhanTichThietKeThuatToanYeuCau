@@ -1,0 +1,16 @@
+Cộng hòa xã hội chủ nghĩa Việt Nam
+Độc lập - Tự do - Hạnh phúc
+
+Đây là bài kiểm tra thuật toán nén LZW.
+Đây là bài kiểm tra thuật toán nén LZW.
+Thuật toán LZW hoạt động bằng cách tìm các chuỗi lặp lại.
+Thuật toán LZW hoạt động bằng cách tìm các chuỗi lặp lại.
+
+Hôm nay trời đẹp quá, gió mát trăng thanh.
+Hôm nay trời đẹp quá, gió mát trăng thanh.
+Lá lành đùm lá rách, lá rách ít đùm lá rách nhiều.
+Lá lành đùm lá rách, lá rách ít đùm lá rách nhiều.
+
+LZW Tiếng Việt test. LZW Tiếng Việt test.
+Chúc bạn đạt điểm cao môn Cấu trúc dữ liệu và Giải thuật!
+Chúc bạn đạt điểm cao môn Cấu trúc dữ liệu và Giải thuật!

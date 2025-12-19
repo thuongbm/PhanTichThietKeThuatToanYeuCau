@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=RunLengthFile
+comment0.text=\r\n\ Compilation\:\ \ javac\ RunLengthFile.java\r\n\ Execution\:\ \ \ \ java\ RunLengthFile\r\n\ Dependencies\:\ BinaryIn.java,\ BinaryOut.java\r\n\r\n\ Class\ n\u00E0y\ d\u00F9ng\ \u0111\u1EC3\ gi\u1EA3i\ n\u00E9n\ file\ b\u1EB1ng\ thu\u1EADt\ to\u00E1n\ RunLength\r\n\ v\u00E0\ ghi\ k\u1EBFt\ qu\u1EA3\ ra\ file\ nh\u1ECB\ ph\u00E2n\ b\u1EB1ng\ BinaryOut.\r\n
+comment1.params=inputFileName\ outputFileName
+comment1.target=void\ expand(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ H\u00E0m\ gi\u1EA3i\ n\u00E9n\ file\r\n\ @param\ inputFileName\ \:\ T\u00EAn\ file\ n\u00E9n\ \u0111\u1EA7u\ v\u00E0o\r\n\ @param\ outputFileName\ \:\ T\u00EAn\ file\ k\u1EBFt\ qu\u1EA3\ \u0111\u1EA7u\ ra\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

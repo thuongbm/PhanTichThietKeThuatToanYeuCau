@@ -137,9 +137,9 @@ public class Quick3string {
      * @param args the command-line arguments
      */
    public static void main(String[] args) throws Exception {
-        System.setIn(new FileInputStream(new File("shells.txt")));
+//        System.setIn(new FileInputStream(new File("shells.txt")));
 //        cau5
-//        System.setIn(new FileInputStream(new File("Vietdoc.txt")));
+        System.setIn(new FileInputStream(new File("Vietdoc.txt")));
         String[] a = StdIn.readAllStrings();
         int n = a.length;
     
